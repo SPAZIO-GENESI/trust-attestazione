@@ -1,0 +1,68 @@
+{
+  "overall": 91,
+  "available_count": 10,
+  "total": 10,
+  "core_version": "0.2.0",
+  "tenant": {
+    "id": "attestazione",
+    "version": "1.0.0"
+  },
+  "indicators": [
+    {
+      "id": "MET-transparency",
+      "label": "Trasparenza",
+      "value": 97
+    },
+    {
+      "id": "MET-integrity",
+      "label": "Integrità",
+      "value": 83,
+      "note": "sonda HMAC (componente \"worker\", snapshot 2026-W33) + ancoraggi dogfooding onorati (1/2 mesi da 2026-07) + repo con tag di release (3/3) — proxy iniziale, non ancora la quota storica di versioni taggate"
+    },
+    {
+      "id": "MET-traceability",
+      "label": "Tracciabilità",
+      "value": 100
+    },
+    {
+      "id": "MET-documentation",
+      "label": "Documentazione",
+      "value": 100
+    },
+    {
+      "id": "MET-automation",
+      "label": "Automazione",
+      "value": 61
+    },
+    {
+      "id": "MET-audit",
+      "label": "Audit",
+      "value": 100,
+      "note": "revisione: ultima il 2026-07-19 (28/90 giorni); ACT: nessuna ancora risolta"
+    },
+    {
+      "id": "MET-conservation",
+      "label": "Conservazione",
+      "value": 88,
+      "note": "snapshot 6/8 settimane + drill: riuscito il 2026-07-19 (28 giorni fa)"
+    },
+    {
+      "id": "MET-reproducibility",
+      "label": "Riproducibilità",
+      "value": 97
+    },
+    {
+      "id": "MET-privacy",
+      "label": "Privacy",
+      "value": 100,
+      "note": "scanner su imgauth@v1.34.1: 10/10 flussi mappati a un DAT (4 falsi positivi dichiarati esclusi) — non copre repo client (es. bot Telegram)"
+    },
+    {
+      "id": "MET-governance",
+      "label": "Governance",
+      "value": 80,
+      "note": "validate 30/30 + gate 12/20 — quota PR esclusa (maintainer singolo, ADR-GTF-011)"
+    }
+  ],
+  "computed_at": "2026-08-16T07:32:30.492Z"
+}
