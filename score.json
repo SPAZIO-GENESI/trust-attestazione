@@ -2,7 +2,7 @@
   "overall": 93,
   "available_count": 10,
   "total": 10,
-  "core_version": "0.2.0",
+  "core_version": "0.2.1",
   "tenant": {
     "id": "attestazione",
     "version": "1.0.0"
@@ -64,5 +64,5 @@
       "note": "validate 30/30 + gate 12/20 — quota PR esclusa (maintainer singolo, ADR-GTF-011)"
     }
   ],
-  "computed_at": "2026-08-18T06:58:19.616Z"
+  "computed_at": "2026-08-18T08:58:40.001Z"
 }
