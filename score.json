@@ -32,7 +32,7 @@
     {
       "id": "MET-automation",
       "label": "Automazione",
-      "value": 64
+      "value": 60
     },
     {
       "id": "MET-audit",
@@ -64,5 +64,5 @@
       "note": "validate 30/30 + gate 12/20 — quota PR esclusa (maintainer singolo, ADR-GTF-011)"
     }
   ],
-  "computed_at": "2026-08-20T13:49:02.751Z"
+  "computed_at": "2026-08-20T15:46:19.092Z"
 }
