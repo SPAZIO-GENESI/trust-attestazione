@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T18:12:08.944Z",
+  "generated_at": "2026-08-24T06:44:47.833Z",
   "registry_url": "https://github.com/SPAZIO-GENESI/gtf/tree/main/tenants/attestazione/registry/processes",
   "items": [
     {
@@ -9,9 +9,9 @@
       "needs_technical": false,
       "duration_minutes": 15,
       "frequency_days": 7,
-      "last_done": "2026-08-17",
+      "last_done": "2026-08-24",
       "never_run": false,
-      "next_due": "2026-08-24",
+      "next_due": "2026-08-31",
       "steps": [
         {
           "do": "Apri, uno alla volta, gli avvisi sul nostro codice dei cinque programmi.",
