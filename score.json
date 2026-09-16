@@ -1,5 +1,5 @@
 {
-  "overall": 93,
+  "overall": 92,
   "available_count": 10,
   "total": 10,
   "core_version": "0.2.1",
@@ -16,8 +16,8 @@
     {
       "id": "MET-integrity",
       "label": "Integrità",
-      "value": 100,
-      "note": "sonda HMAC (componente \"worker\", snapshot 2026-W35) + ancoraggi dogfooding onorati (2/2 mesi da 2026-07) + repo con tag di release (3/3) — proxy iniziale, non ancora la quota storica di versioni taggate"
+      "value": 89,
+      "note": "sonda HMAC (componente \"worker\", snapshot 2026-W38) + ancoraggi dogfooding onorati (2/3 mesi da 2026-07) + repo con tag di release (3/3) — proxy iniziale, non ancora la quota storica di versioni taggate"
     },
     {
       "id": "MET-traceability",
@@ -38,13 +38,13 @@
       "id": "MET-audit",
       "label": "Audit",
       "value": 100,
-      "note": "revisione: ultima il 2026-07-19 (36/90 giorni); ACT: nessuna ancora risolta"
+      "note": "revisione: ultima il 2026-07-19 (59/90 giorni); ACT: nessuna ancora risolta"
     },
     {
       "id": "MET-conservation",
       "label": "Conservazione",
       "value": 100,
-      "note": "snapshot 8/8 settimane + drill: riuscito il 2026-07-19 (36 giorni fa)"
+      "note": "snapshot 8/8 settimane + drill: riuscito il 2026-07-19 (59 giorni fa)"
     },
     {
       "id": "MET-reproducibility",
@@ -60,9 +60,9 @@
     {
       "id": "MET-governance",
       "label": "Governance",
-      "value": 80,
-      "note": "validate 30/30 + gate 12/20 — quota PR esclusa (maintainer singolo, ADR-GTF-011)"
+      "value": 78,
+      "note": "validate 30/30 + gate 11/20 — quota PR esclusa (maintainer singolo, ADR-GTF-011)"
     }
   ],
-  "computed_at": "2026-08-24T06:44:47.402Z"
+  "computed_at": "2026-09-16T11:47:42.998Z"
 }
