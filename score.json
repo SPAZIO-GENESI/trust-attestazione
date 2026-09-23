@@ -17,7 +17,7 @@
       "id": "MET-integrity",
       "label": "Integrità",
       "value": 89,
-      "note": "sonda HMAC (componente \"worker\", snapshot 2026-W38) + ancoraggi dogfooding onorati (2/3 mesi da 2026-07) + repo con tag di release (3/3) — proxy iniziale, non ancora la quota storica di versioni taggate"
+      "note": "sonda HMAC (componente \"worker\", snapshot 2026-W39) + ancoraggi dogfooding onorati (2/3 mesi da 2026-07) + repo con tag di release (3/3) — proxy iniziale, non ancora la quota storica di versioni taggate"
     },
     {
       "id": "MET-traceability",
@@ -38,13 +38,13 @@
       "id": "MET-audit",
       "label": "Audit",
       "value": 100,
-      "note": "revisione: ultima il 2026-07-19 (59/90 giorni); ACT: nessuna ancora risolta"
+      "note": "revisione: ultima il 2026-07-19 (66/90 giorni); ACT: nessuna ancora risolta"
     },
     {
       "id": "MET-conservation",
       "label": "Conservazione",
       "value": 100,
-      "note": "snapshot 8/8 settimane + drill: riuscito il 2026-07-19 (59 giorni fa)"
+      "note": "snapshot 8/8 settimane + drill: riuscito il 2026-07-19 (66 giorni fa)"
     },
     {
       "id": "MET-reproducibility",
@@ -55,7 +55,7 @@
       "id": "MET-privacy",
       "label": "Privacy",
       "value": 100,
-      "note": "scanner su imgauth@v1.35.1: 10/10 flussi mappati a un DAT (4 falsi positivi dichiarati esclusi) — non copre repo client (es. bot Telegram)"
+      "note": "scanner su imgauth@v1.37.0: 10/10 flussi mappati a un DAT (4 falsi positivi dichiarati esclusi) — non copre repo client (es. bot Telegram)"
     },
     {
       "id": "MET-governance",
@@ -64,5 +64,5 @@
       "note": "validate 30/30 + gate 11/20 — quota PR esclusa (maintainer singolo, ADR-GTF-011)"
     }
   ],
-  "computed_at": "2026-09-16T11:51:26.786Z"
+  "computed_at": "2026-09-23T09:56:50.645Z"
 }
