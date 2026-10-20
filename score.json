@@ -64,5 +64,6 @@
       "note": "validate 30/30 + gate 11/20 — quota PR esclusa (maintainer singolo, ADR-GTF-011)"
     }
   ],
-  "computed_at": "2026-10-20T07:48:53.193Z"
+  "as_of": "2026-10-20T14:08:30.646Z",
+  "computed_at": "2026-10-20T14:08:30.675Z"
 }
